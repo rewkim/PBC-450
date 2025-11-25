@@ -20,6 +20,6 @@ cd ~/Desktop
 scp -r gjf5502@10.2.0.53:/home/gjf5502/PBC450_2025/soil_metagenomics/20251107_1254_MN29288_FBE86142_e0306a7f/pod5/demux/barcode01_np .
 
 # Transfer epi2me wf-metagenomics pipeline output to file save location through curie server
-nextflow run epi2me-labs/wf-metagenomics --fastq e0306a7f-0f47-436a-bfef-23e64d0532f5_SQK-RBK114-24_barcode01.fastq --out_dir barcode01_metagen
+scp -r gjf5502@10.2.0.53:/home/gjf5502/PBC450_2025/soil_metagenomics/20251107_1254_MN29288_FBE86142_e0306a7f/pod5/demux/barcode01_metagen
 
 # Thank you so much, Suzy!
